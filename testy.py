@@ -31,7 +31,7 @@ def tiago(splitter):
     return splitter.split("|")
 
 
-inputty = input("type a Yup'ik word \n or e.g. \"ayakatalliniluni\"").lower()  # get the input and lowercase it
+inputty = input("type a Yup'ik word \ne.g. \"ayakatalliniluni\"").lower()  # get the input and lowercase it
 
 word = sorter(inputty)  # takes input and sorts it
 separator = tiago(word)  # takes from sorted
